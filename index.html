@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              red: "#EB0029",
+              black: "#333333",
+              "dark-black": "#010F1C",
+              white: "#F2F2F2",
+              "light-gray": "#BDBDBD",
+              "dark-gray": "#828282",
+            },
+          },
+        },
+      };
+    </script>
+
+    <title>protfolio</title>
+  </head>
+  <body class="bg-dark-black">
+    <!-- nacbar start -->
+
+    <nav class="flex gap-[200px] sm:gap-[100px] justify-evenly">
+      <div class="text-white">SameerAli</div>
+
+      <div>
+        <ul class="flex text-white gap-4">
+          <li class="">about us</li>
+          <li class="">service</li>
+          <li class="">my skils</li>
+          <li class="">contact</li>
+        </ul>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- herro section -->
+    <div class="flex justify-evenly py-9">
+      <div class="text-white py">
+        <h1 class="">
+          Hi, i`M<br />
+          Sameer ali saeed
+        </h1>
+        <p class="text-sm-60/[20px] py-4">Lorem, ipsum dolor.</p>
+        <button class="w-[143px] h-[42px] bg-green-500 items-center">
+          download cv
+        </button>
+        <button
+          class="w-[143px] h-[42px] border-rgba(242, 242, 242, 1) border-solid"
+        >
+          learn more
+        </button>
+      </div>
+      <div></div>
+    </div>
+    <!-- about -->
+    <div class="flex gap-[100px] justify-evenly">
+      <div class="flex flex-col items-center">
+        <img src="./img/Dod.svg" alt="logo" class="cursor-pointer" />
+        <p class="text-sm text-white">Full name</p>
+        <a class="text-white">SameerAli</a>
+      </div>
+      <div class="flex flex-col justify-center items-center">
+        <img src="./img/Dod.svg" alt="logo" class="cursor-pointer" />
+        <p class="text-white">email adress</p>
+        <a class="text-white">alikhangmail.com</a>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="./img/Dod.svg" alt="logo" class="cursor-pointer" />
+        <p class="text-white">instagram</p>
+        <a class="text-white">samerali1213</a>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="./img/Dod.svg" alt="logo" class="cursor-pointer" />
+        <p class="text-white">contact</p>
+        <a class="text-white">03151165238</a>
+      </div>
+    </div>
+    <!-- service -->
+    <div class="flex gap-4 justify-evenly py-[100px] items-center">
+      <div
+        class="flex flex-col bg-zinc-900 w-[300px] h-[241px] items-center justify-center gap-y-2 py-4"
+      >
+        <img src="./img/sofwere.svg " alt="softwere" class="left-[50px]" />
+        <p class="flex text-zinc-600 text-2xl">softwere<br />development</p>
+      </div>
+      <div
+        class="flex flex-col bg-zinc-900 w-[300px] h-[241px] items-center justify-center gap-y-2 py-4"
+      >
+        <img src="./img/wed develop.svg " alt="softwere" class="left-[50px]" />
+        <p class="flex text-zinc-600 text-2xl">web<br />development</p>
+      </div>
+      <div
+        class="flex flex-col bg-zinc-900 w-[300px] h-[241px] items-center justify-center gap-y-2 py-4"
+      >
+        <img src="./img/we disign.svg " alt="softwere" class="left-[50px]" />
+        <p class="flex text-zinc-600 text-2xl">web<br />disign</p>
+      </div>
+    </div>
+    <!-- my skills -->
+    <div class="flex w-[900px] h-[150px] bg-zinc-900 justify-evenly py-4">
+      <div class="flex flex-col items-center">
+        <img src="./img/html.svg " alt="sametr" class="" />
+        <h2 class="text-green-500">Html</h2>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="./img/css.svg " alt="sametr" class="" />
+        <h3 class="text-green-500" >css</h3>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="./img/javascript.svg " alt="sametr" class="" />
+        <h4 class="text-green-500">javascript</h4>
+      </div>
+      <div class="flex flex-col items-center">
+        <img src="./img/github.svg " alt="sametr" class="" />
+        <h5 class="text-green-500">github</h5>
+      </div>
+    </div>
+  </body>
+</html>
