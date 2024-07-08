@@ -41,7 +41,7 @@
     <!-- navbar end -->
 
     <!-- herro section -->
-    <div class="flex md:flex-cols-1 justify-center gap-[200px] py-9">
+    <div class="flex md:flex-col-1 justify-center gap-[200px] py-9">
       <div class="text-white py-11">
         <h1 class="">
           Hi, i`M<br />
@@ -57,11 +57,13 @@
           learn more
         </button>
       </div>
-      <div><img src="./img/photo.svg" alt=" photo" class=" w-[300px]"/></div>
+      <div><img src="./img/photo.svg" alt=" photo" class="w-[300px]" /></div>
     </div>
-    <h5 class="flex justify-center items-center text-white py-9 text-2xl">About</h5>
+    <h5 class="flex justify-center items-center text-white py-9 text-2xl">
+      About
+    </h5>
     <!-- about -->
-    <div class="flex gap-[100px] justify-evenly">
+    <div class="flex gap-[100px] md:gap-[50px] justify-evenly">
       <div class="flex flex-col items-center">
         <img src="./img/Dod.svg" alt="logo" class="cursor-pointer" />
         <p class="text-sm text-white">Full name</p>
@@ -75,6 +77,7 @@
       <div class="flex flex-col items-center">
         <img src="./img/Dod.svg" alt="logo" class="cursor-pointer" />
         <p class="text-white">instagram</p>
+
         <a class="text-white">samerali1213</a>
       </div>
       <div class="flex flex-col items-center">
@@ -83,7 +86,9 @@
         <a class="text-white">03151165238</a>
       </div>
     </div>
-    <h6  class="flex justify-center items-center text-white py-9 text-2xl">What i do</h6>
+    <h6 class="flex justify-center items-center text-white py-9 text-2xl">
+      What i do
+    </h6>
     <!-- service -->
     <div class="flex gap-4 justify-evenly py-[100px] items-center">
       <div
@@ -102,14 +107,20 @@
         class="flex flex-col bg-zinc-900 w-[300px] h-[241px] items-center justify-center gap-y-2 py-4"
       >
         <img src="./img/we disign.svg " alt="softwere" class="left-[50px]" />
-        <p class="flex text-zinc-600 text-2xl">web<br />disign</p>
+        <p class="flex text-zinc-600 text-2xl">
+          web<br />disigner<br />development
+        </p>
       </div>
     </div>
-    <h7  class="flex justify-center items-center text-white py-9 text-2xl">My skills</h7>
+    <h7 class="flex justify-center items-center text-white py-9 text-2xl"
+      >My skills</h7
+    >
     <!-- my skills -->
-    <div class="flex w-[900px] h-[150px] bg-zinc-900 justify-center gap-14 items-center py-4">
+    <div
+      class="flex sm:flex-row w-[900px] sm:w-[300px] h-[150px] bg-zinc-900 sm:justify-center gap-14 sm:gap-4 items-center py-4 px-"
+    >
       <div class="flex flex-col items-center">
-        <img src="./img/html.svg " alt="sametr" class="" />
+        <img src="./img/html.svg " alt="sametr" class=":sm:w-[150px]" />
         <h2 class="text-green-500">Html</h2>
       </div>
       <div class="flex flex-col items-center">
@@ -117,20 +128,65 @@
         <h3 class="text-green-500">css</h3>
       </div>
       <div class="flex flex-col items-center">
-        <img src="./img/javascript.svg " alt="sametr" class="" />
+        <img src="./img/javascript.svg " alt="sametr" class="sm:w-[150px]" />
         <h4 class="text-green-500">javascript</h4>
       </div>
       <div class="flex flex-col items-center">
-        <img src="./img/github.svg " alt="sametr" class="" />
+        <img src="./img/github.svg " alt="sametr" class="sm:w-[150px]" />
         <h5 class="text-green-500">github</h5>
       </div>
     </div>
-    <div>
-      <div></div>
-    <div>  <button class="w-[143px] h-[42px] bg-green-500 items-center">
-      submit now
-    </button>
-</div>
-  </div>
+    <h8 class="flex justify-center items-center text-white py-9 text-2xl"
+      >Get in touch</h8
+    >
+
+    <!-- contect -->
+    <div class="flex  justify-center gap-4 py-9">
+      <div class="flex flex-row ">
+        <input
+          type=" "
+          placeholder="name"
+          class="outline-none ring-0 border-b border-stone-700 border-solid w-[300px] text-white bg-dark-black"
+        />
+      </div>
+      <div class="">
+        <input
+          type=""
+          placeholder=" last name "
+          class="outline-none ring-0 border-b border-stone-700 border-solid w-[300px] text-white bg-dark-black"
+        />
+      </div>
+    </div>
+
+    <div class="flex justify-center gap-4">
+      <div class="flex flex-row">
+        <input
+          type=" "
+          placeholder="email"
+          class="outline-none ring-0 border-b border-stone-700 border-solid w-[300px] text-white bg-dark-black"
+        />
+      </div>
+      <div>
+        <input
+          type=""
+          placeholder=" phone number "
+          class="outline-none ring-0 border-b border-stone-700 border-solid w-[300px] text-white bg-dark-black"
+        />
+      </div>
+    </div>
+
+    <div class="flex justify-center py-9">
+      <input
+        type=""
+        placeholder="massage"
+        class="outline-none ring-0 border-2 border-stone-700 border-solid w-[300px] text-white text-white bg-dark-black w-[600px] h-[100px]"
+      />
+    </div>
+
+    <div class="flex justify-center py-9">
+      <button class="w-[143px] h-[42px] bg-green-500 items-center">
+        submit now
+      </button>
+    </div>
   </body>
 </html>
